@@ -1,0 +1,12 @@
+Source: ros-hydro-cob-unified-scan-publisher
+Section: misc
+Priority: extra
+Maintainer: Florian Mirus <frm@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-laser-geometry, ros-hydro-message-filters, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://ros.org/wiki/cob_unified_scan_publisher
+Standards-Version: 3.9.2
+
+Package: ros-hydro-cob-unified-scan-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-laser-geometry, ros-hydro-message-filters, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf
+Description: cob_unified_scan_publisher is a tool for unifying two laser scans into a single one. This has shown to provide better results for SLAM than using two laser scanners over a topic relay.
