@@ -1,0 +1,12 @@
+Source: ros-hydro-cob-mapping-slam
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/cob_mapping_slam
+Standards-Version: 3.9.2
+
+Package: ros-hydro-cob-mapping-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cob-navigation-config, ros-hydro-cob-unified-scan-publisher, ros-hydro-gmapping
+Description: cob_mapping_slam holds launch files for running SLAM using the gmapping package.
