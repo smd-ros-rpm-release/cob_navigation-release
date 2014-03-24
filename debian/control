@@ -1,0 +1,12 @@
+Source: ros-hydro-cob-navigation-local
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/cob_navigation_local
+Standards-Version: 3.9.2
+
+Package: ros-hydro-cob-navigation-local
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cob-navigation-config, ros-hydro-move-base, ros-hydro-rviz
+Description: This package holds config and launch files for running the move_base node on the Care-O-bot in an odometric frame. No static map is needed for the move_base node in this configuration.
