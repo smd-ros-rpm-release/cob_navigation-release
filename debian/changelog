@@ -1,0 +1,51 @@
+ros-indigo-cob-mapping-slam (0.6.0-1trusty) trusty; urgency=high
+
+  * Merge branch 'indigo_dev' into indigo_release_candidate
+  * fix dependencies
+  * Contributors: Florian Weisshardt
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Tue, 09 Sep 2014 22:00:00 -0000
+
+ros-indigo-cob-mapping-slam (0.5.2-1trusty) trusty; urgency=high
+
+  * fixed indentation of 2dslam.xml
+  * fixed the gmapping launch file after cob_scan_unifier rework
+  * Contributors: Florian Mirus
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-indigo-cob-mapping-slam (0.5.1-1trusty) trusty; urgency=high
+
+  * add changelog
+  * version bump
+  * remove more not needed files
+  * adjust CMakeLists and package.xml
+  * set author/maintainer email
+  * cob_mapping_slam: add missing dep
+  * cob_mapping_slam: adjust launch argument
+  * standalone package for unified scan publisher (issue #18 <https://github.com/ipa320/cob_navigation/issues/18>)
+  * added argument to switch between front or unified front and rear scans in cob_mapping_slam
+  * Added new argument for easier choosing between unified scan and front scan.
+  * Catkinisation and gitignore.
+  * add roslaunch tests
+  * adjust roslaunch checks
+  * fix wiki links inf manifest.xml and stack.xml
+  * adjust manifests for documentation
+  * refactoring of slam launch files
+  * refactoring of cob_navigation_config; current cob_drivers required
+  * rearrange stack
+  * Contributors: Alexander Bubeck, Denis Štogl, Florian Weisshardt, IPR-SR2, ipa-fmw, ipa-mig, robot
+  * Added new argument for easier choosing between unified scan and front scan.
+  * Catkinisation and gitignore.
+  * add roslaunch tests
+  * adjust roslaunch checks
+  * fix wiki links inf manifest.xml and stack.xml
+  * adjust manifests for documentation
+  * refactoring of slam launch files
+  * refactoring of cob_navigation_config; current cob_drivers required
+  * rearrange stack
+  * Contributors: Alexander Bubeck, Denis Štogl, IPR-SR2, ipa-fmw, ipa-mig
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Thu, 20 Mar 2014 23:00:00 -0000
+
+
