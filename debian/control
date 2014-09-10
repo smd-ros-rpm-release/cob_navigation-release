@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-mapping-slam
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/cob_mapping_slam
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-mapping-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cob-navigation-global, ros-indigo-gmapping
+Description: cob_mapping_slam holds launch files for running SLAM using the gmapping package.
