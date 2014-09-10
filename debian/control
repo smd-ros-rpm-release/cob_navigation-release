@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-scan-unifier
+Section: misc
+Priority: extra
+Maintainer: Florian Mirus <frm@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-laser-geometry, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-scan-unifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-laser-geometry, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: The cob_scan_unifier package holds code to unify two or more laser-scans to one unified scan-message
