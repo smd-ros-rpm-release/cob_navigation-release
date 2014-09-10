@@ -1,0 +1,28 @@
+ros-indigo-cob-navigation (0.6.0-2saucy) saucy; urgency=high
+
+  * Merge branch 'indigo_dev' into indigo_release_candidate
+  * fix dependencies
+  * Contributors: Florian Weisshardt
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Tue, 09 Sep 2014 22:00:00 -0000
+
+ros-indigo-cob-navigation (0.5.2-2saucy) saucy; urgency=high
+
+
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-indigo-cob-navigation (0.5.1-2saucy) saucy; urgency=high
+
+  * add changelog
+  * version bump
+  * adjust CMakeLists and package.xml
+  * set author/maintainer email
+  * Catkinisation and gitignore.
+  * Contributors: Florian Weisshardt, IPR-SR2, ipa-mig
+  * Catkinisation and gitignore.
+  * Contributors: IPR-SR2
+
+ -- Matthias Gruhler <mig@ipa.fraunhofer.de>  Thu, 20 Mar 2014 23:00:00 -0000
+
+
