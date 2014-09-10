@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-navigation-global
+Section: misc
+Priority: extra
+Maintainer: Matthias Gruhler <mig@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/cob_navigation_global
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-navigation-global
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-amcl, ros-indigo-cob-default-env-config, ros-indigo-cob-linear-nav, ros-indigo-cob-navigation-config, ros-indigo-cob-scan-unifier, ros-indigo-map-server, ros-indigo-move-base, ros-indigo-navigation, ros-indigo-rviz, ros-indigo-topic-tools
+Description: This package holds config and launch files for running the move_base node on the Care-O-bot. The move_base node is configured to run over a pre-specified static map.
