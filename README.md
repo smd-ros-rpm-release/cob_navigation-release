@@ -1,10 +1,31 @@
-cob_navigation
+cob\_scan\_unifier
 ====================
 
-The cob_navigation repository provides configuration and launch files for running the navigation stack on the Fraunhofer IPA robots Care-O-bot and rob@work in a number of common configurations.
-For example, the `cob_navigation_local` package holds files that configure the `move_base` node to operate in an odometric frame, and the ’cob_mapping_slam’ package holds files that configure the robot for SLAM.
-These configuration files are intended for use as building blocks for applications that wish to use autonomous navigation as a component.
+General description
+---------------------
+This package implements a node that unifies scan messages from a given numer of laser scanners
 
-The naming of the packages as well as the documentation is kept close to the one of `pr2_navigation` for ease of use for experienced ROS users. However, changes are made to suit our needs.
+Node: scan\_unifier\_node
+---------------------
 
-For more information, check out the [ROS Wiki page](http://wiki.ros.org/cob_navigation "cob_navigation wiki page")
+The actual node that unifies a given number of laser scans
+#### Parameters
+**input\_scans** *(List of std::string)*   
+ The names of the scan topics to subscribe to as list of strings.
+ 
+**loop\_rate** *(double, default: 100.0 [hz])*   
+ The loop rate of the ros node.
+
+#### Published Topics
+**scan\_unified** *(sensor_msgs::LaserScan)*   
+ Publishes the unified scans.
+
+#### Subscribed Topics
+**input\_scan\_name** *(sensor_msgs::LaserScan)*   
+ The current scan message from the laser scanner with topic name specified via the parameter **input\_scan\_topics**
+
+
+#### Services
+
+
+#### Services called
